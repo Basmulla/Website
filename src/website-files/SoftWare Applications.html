@@ -1,0 +1,221 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Basmulla's Portfolio</title>
+</head>
+
+<body id="third">
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 7px;
+            font-family: Arial;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .topnav a.active_not {
+            background-color: #7a7a7a;
+            color: rgb(255, 255, 255);
+        }
+
+        .searchbox {
+            float: right;
+        }
+
+        input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .searchbox button {
+
+            padding: 8px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background: rgb(255, 255, 255);
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .topnav input[type=text] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+
+
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .topnav img {
+            border-radius: 50%;
+        }
+
+        .topnav img {
+            border: 5px solid rgb(104, 104, 104);
+        }
+    </style>
+    <header>
+        <sidebar>
+            <div class="topnav">
+                <img src="Atekulla_Basmulla Avatar.png" width="45" height="45" alt="Avatar">
+                <a class="active_not" href="index.html">Home</a>
+                <a class="active_not" href="About.html">About</a>
+                <a class="active" href="SoftWare Applications.html"> S W K </a>
+                <div class="searchbox">
+                    <form>
+                        <input id="searchbar" onkeyup="search_text()" type="text" placeholder=" Search...."
+                            name="search">
+                    </form>
+                </div>
+            </div>
+        </sidebar>
+    </header>
+<main id="first">
+    <div class="secondary">
+        <nav>
+            <h1><strong><u>Basmulla's Portfolio</u></strong></h1>
+         </nav>
+        <hr>
+
+        <h2>Software Applications</h2>
+        <p>This tab will showcase the different Languages and SoftWare Applications I use to
+            incorporate in my work</p>
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="ReactJS.png" alt="React" style="width:100%">
+                    <h3>ReactJS Application</h3>
+                    <p>ReactJS is a front-end JavaScript Library used for building userinterfaces
+                        and helps handle the view layer of the web or mobile app. I used ReactJS to
+                        build my todo-list app.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="JavaScript.jpg" alt="JavaScript" style="width:100%">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is a programming language that is used in mobile and app development.
+                        I used JavaScript in many of my web apps such as the Calculator app and the
+                        todo-list app.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="CSS.jpeg" alt="CSS" style="width:100%">
+                    <h3>CSS</h3>
+                    <p>CSS is a style sheets programming language that is used for styling and formating
+                        the written documents in the markup languages such as HTML. I used CSS in all of my
+                        web app such as my portfolio, Calculator and more.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="HTML.png" alt="HTML" style="width:100%">
+                    <h3>HTML</h3>
+                    <p>HTML is a programming language that is used to build and construct web pages and
+                        its content. I used HTML in all of my web apps that I constructed.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <img src="WebDev.jpeg" alt="Back-end" style="width:100%">
+            <h3>Back-End Programming Languages</h3>
+            <p>These are some back-end programming languages that I want to learn as I believe I have
+                some knowlegde with Front-end Apllications but not with Back-End. Learning Back-end
+                languages would be great because it would help with functionality and logic code powering
+                your working on. It would a great quality to have in this day and age. </p>
+        </div>
+
+    </div>
+</main>
+
+</body>
+
+</html>
