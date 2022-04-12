@@ -1,0 +1,58 @@
+ [
+        {
+            "text": "Home",
+            "link": "https://basmulla.github.io/Home"
+        },
+        {
+            "text": "About",
+            "link": "https://basmulla.github.io/About"
+        },
+        {
+            "text": "SWK",
+            "link": "https://basmulla.github.io/SWK"
+        },
+        {
+            "text":"GitHub",
+            "link":"https://github.com/"
+        },
+        {
+            "text":"Calculator",
+            "link":"https://basmulla.github.io/calculate-app/"
+        },
+        {
+            "text": "Real Madrid",
+            "link": "https://www.google.com/search?q=real+madrid&rlz=1C1CHBF_enCA992CA992&sxsrf=APq-WBvT9FP9LS8dc4_Rl0tcQeUCMgj2Vg%3A1649436571400&ei=m2dQYquHGIvJtQbnhIOoCA&ved=0ahUKEwjrwKuH9oT3AhWLZM0KHWfCAIUQ4dUDCA4&uact=5&oq=real+madrid&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEELEDEIMBMgcIABCxAxBDMggIABCxAxCDATILCAAQgAQQsQMQgwEyCAgAEIAEELEDMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMggIABCABBCxAzILCAAQgAQQsQMQgwE6BwgAEEcQsANKBAhBGABKBAhGGABQnQRYnQRg8wVoAXABeACAAX6IAX6SAQMwLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz"
+        },
+        {
+            "text": "Aw",
+            "link": "https://aw.tdsb.on.ca/sites/awsupport"
+        },
+        {
+            "text": "Email",
+            "link": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+        },
+        {
+            "text": "Youtube",
+            "link": "https://www.youtube.com/"
+        },
+        {
+            "text":"Google",
+            "link":"https://www.google.ca/"
+        },
+        {
+            "text":"Brightspace",
+            "link":"https://tdsb.elearningontario.ca/d2l/login"
+        },
+        {
+            "text": "Instagram",
+            "link": "https://www.instagram.com/basmulla_7/"
+        },
+        {
+            "text": "Facebook",
+            "link": "https://www.facebook.com/bismullah.atekulla/"
+        },
+        {
+            "text": "Twitter",
+            "link": "https://twitter.com/7Basmulla/"
+        }
+    ]

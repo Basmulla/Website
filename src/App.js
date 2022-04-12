@@ -4,16 +4,19 @@ import SWK from './pages/SWK';
 
 import Header from './components/Header'
 import Footer from './components/Footer';
+import SearchBar from './components/SearchBar';
+import LinkData from "./components/Data.json";
 
 import { BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
 
 import './App.css';
+import './components/SearchBar.css'
 
 function App() {
   return (
     <div>
       <Router>
-        <Header />
+        <Header/>
         <Switch>
           <Route exact path="/Website" render={() => (
             <Redirect to="/Home" />
@@ -21,6 +24,7 @@ function App() {
           <Route exact path="/Home" component={Home} />
           <Route exact path="/About" component={About} />
           <Route exact path="/SWK" component={SWK} />
+          <SearchBar placeholder="Search ..." data={LinkData} />
         </Switch>
         <Footer />
       </Router>

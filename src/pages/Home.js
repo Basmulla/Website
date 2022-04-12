@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+// eslint-disable-next-line 
 import React from 'react';
 
 class Home extends React.Component {

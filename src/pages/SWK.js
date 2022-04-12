@@ -103,7 +103,7 @@ class SWK extends React.Component {
                         <p>These are some back-end programming languages that I want to learn as I believe I have
                             some knowlegde with Front-end Apllications but not with Back-End. Learning Back-end
                             languages would be great because it would help with functionality and logic code powering
-                            your working on.It would a great quality to have in this day and age.</p>
+                            your working on. It would a great quality to have in this day and age.</p>
                     </div>
                 </div>
             </main>

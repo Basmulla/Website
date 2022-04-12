@@ -1,11 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import "./SearchBar";
+import Helmet from "react-helmet";
 
 class Header extends React.Component {
     render() {
         return (
             <header>
+                <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+                </script>
+                <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+                <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
                 <sidebar>
                     <div class="topnav">
                         <img src={process.env.PUBLIC_URL + "/images/Atekulla_Basmulla Avatar.png"} width="45" height="45" alt="Avatar" />
@@ -16,12 +22,13 @@ class Header extends React.Component {
                         &nbsp;
                         <a><NavLink to="/SWK" activeClassName="active">S W K</NavLink></a>
                         &nbsp;
+                        <a><NavLink to="/SearchBar" activeClassName="active">Browser</NavLink></a>
+                        &nbsp;
                         <div class="searchbox">
-                            <form>
-                                <input id="searchbar" onkeyup="search_text()" type="text" placeholder=" Search...." name="search" />
-                            </form>
+                            <Helmet>
+                                <script src="SearchBar.js" type='text/babel'></script>
+                            </Helmet>
                         </div>
-                        <script scr="Main.js"></script>
                     </div>
                 </sidebar>
                 <br />

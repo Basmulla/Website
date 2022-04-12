@@ -34,31 +34,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.searchbox {
-  float: right;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.searchbox button {
-  padding: 8px;
-  margin-top: 10px;
-  margin-left: 10px;
-  background: rgb(255, 255, 255);
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.form {
-  float: right;
-  padding: 20px;
-  border: none;
-  margin-top: 20px;
-  margin-right: 26px;
-  font-size: 27px;
-}
-
 .topnav img {
   border-radius: 50%;
   border: 5px solid rgb(104, 104, 104);
