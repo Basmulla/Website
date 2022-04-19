@@ -24,6 +24,8 @@ class Header extends React.Component {
                         &nbsp;
                         <a><NavLink to="/SearchBar" activeClassName="active">Browser</NavLink></a>
                         &nbsp;
+                        <a><NavLink to="/SignupForm" activeClassName="active">Sign Up</NavLink></a>
+                        &nbsp;
                         <div class="searchbox">
                             <Helmet>
                                 <script src="SearchBar.js" type='text/babel'></script>
