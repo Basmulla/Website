@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import SWK from './pages/SWK';
@@ -29,6 +29,13 @@ function App() {
           <Route exact path="/SWK" component={SWK} />
           <Route exact path="/SignupForm" component={MultiStepForm} />
           <SearchBar placeholder="Search ..." data={LinkData} />
+          <Route path="*">
+            <Home />
+            <About />
+            <SWK />
+            <MultiStepForm />
+            <SearchBar />
+          </Route>
         </Switch>
         <Footer />
       </Router>
