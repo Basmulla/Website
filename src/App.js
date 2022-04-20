@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/Website" render={() => (
+          <Route exact path="/" render={() => (
             <Redirect to="/Home" />
           )} />
           <Route exact path="/Home" component={Home} />
