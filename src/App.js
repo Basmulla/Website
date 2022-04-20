@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/SWK" component={SWK} />
           <Route exact path="/SignupForm" component={MultiStepForm} />
           <SearchBar placeholder="Search ..." data={LinkData} />
-          <Route path="*">
+          <Route exact path="*">
             <Home />
             <About />
             <SWK />
