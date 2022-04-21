@@ -9,7 +9,7 @@ import SearchBar from './components/SearchBar';
 import LinkData from "./components/Data.json";
 import MultiStepForm from './components/MultiStepForm';
 
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 import './components/SearchBar.css';
@@ -21,7 +21,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/Website" render={() => (
+          <Route exact path="/" render={() => (
             <Redirect to="/Home" />
           )} />
           <Route exact path="/Home" component={Home} />
@@ -29,13 +29,6 @@ function App() {
           <Route exact path="/SWK" component={SWK} />
           <Route exact path="/SignupForm" component={MultiStepForm} />
           <SearchBar placeholder="Search ..." data={LinkData} />
-          <Route exact path="*">
-            <Home />
-            <About />
-            <SWK />
-            <MultiStepForm />
-            <SearchBar />
-          </Route>
         </Switch>
         <Footer />
       </Router>
