@@ -1,11 +1,11 @@
  [
         {
             "text": "Home",
-            "link": "https://basmulla.github.io/Home"
+            "link": "https://basmulla.github.io/Website/#/Home"
         },
         {
             "text": "About",
-            "link": "https://basmulla.github.io/About"
+            "link": "https://basmulla.github.io/Website/#/About"
         },
         {
             "text":"Dictionary",
@@ -17,7 +17,11 @@
         },
         {
             "text": "SWK",
-            "link": "https://basmulla.github.io/SWK"
+            "link": "https://basmulla.github.io/Website/#/SWK"
+        },
+        {
+          "text":"Sign Up",
+          "link":"https://basmulla.github.io/Website/#/SignupForm"  
         },
         {
             "text":"GitHub",
