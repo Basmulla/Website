@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import "./Signup Form.css";
 
 class Confirmation extends Component {
@@ -14,6 +14,8 @@ class Confirmation extends Component {
         this.props.nextStep();
     };
 
+
+
     render() {
         const { inputValues: { firstName, lastName, email, address, city, province } } = this.props;
 
@@ -24,8 +26,12 @@ class Confirmation extends Component {
                 margin: "0",
                 padding: "0",
                 backgroundColor: "#f1f1f1",
-                fontFamily: "lato, sanSerif"
+                fontFamily: "lato, sanSerif",
+                width: "400px",
+                height: "100vh",
+                borderRadius: "8px"
             }} >
+                <Row>
                 <h1>Confirm your Details</h1>
                 <p>Confirm if the following details are correct.</p>
                 <p>First Name: {firstName}</p>
@@ -55,7 +61,8 @@ class Confirmation extends Component {
                     cursor: "pointer",
                     fontSize: "16px",
                     marginTop: "15px"
-                }} onClick={this.saveAndContinue}>Confirm</button>
+                }} onClick={()=> window.open("https://basmulla.github.io/Website/#/Home", "_blank")}>Confirm</button>
+                </Row>
             </Container>
         );
     }
