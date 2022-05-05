@@ -67,7 +67,6 @@ class Home extends React.Component {
                     alt="GitHub Streak" data-canonical-src="https://git.io/streak-stats" style={{ width: '50%;' }} />
                 <img src="https://github-readme-stats.vercel.app/api?username=Basmulla" alt="My GitHub stats"
                     data-canonical-src="https://git.io/streak-stats" style={{ width: '50%;' }} />
-                &nbsp;
                 <p>Thank you for reading this quick overview on my work history, achievements
                     and projects I have created.</p>
                 <div class="row" />
