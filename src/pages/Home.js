@@ -27,7 +27,7 @@ class Home extends React.Component {
                 <img align="right" src={process.env.PUBLIC_URL + "/images/MGCI Jr Boys 2019.JPG"} alt="Soccer Team" width="250" height="150" />
                 <h3><u>Extracirriculars</u></h3>
                 <ol>
-                    <li> Memeber of the MGCI Boys Senior Soccer team </li>
+                    <li> Member of the MGCI Boys Senior Soccer team </li>
                     &nbsp;
                     <li> Member of the MGCI CodeHers Collective club </li>
                 </ol>
@@ -37,19 +37,19 @@ class Home extends React.Component {
                 <ol>
                     <li>Calculator App: I created a Calculator app using HTML, CSS, and JavaScript. It has many functions
                         such as the Multiplication, Division, Addition, Sqaure Root and more. It does not have the functions of
-                        a scientific calculator. Here is the link to the app. <a
-                            href="https://basmulla.github.io/calculate-app/">Calculator App</a></li>
+                        a scientific calculator. Here is the link to the app.
+                        <a href="https://basmulla.github.io/calculate-app/"> Calculator App</a></li>
                     &nbsp;
                     <li>Todo-List App: I created a todo-list app where you can add tasks to remind of events that will occur in the
                         near
                         future. You can also delete them or double click on them to turn them green when completed. I used HTML,
-                        CSS, JavaScript and ReactJS to make the app. <a href="https://basmulla.github.io/todo-list/">Todo-List App</a>
+                        CSS, JavaScript and ReactJS to make the app. <a href="https://basmulla.github.io/todo-list/"> Todo-List App</a>
                     </li>
                     &nbsp;
                     <li>Book-Directory Website: I created a book directory website where you can update or delete a list of books that I have stored
-                        in an api. I fetch that api using HTTP verbs from the website and created functions to update the title, page count, description 
+                        in an api. I fetch that api using HTTP verbs from the website and created functions to update the title, page count, description
                         of the book, aswell as another function to delete the book. I used ReactJS, node.JS and CSS to build the book directory website.
-                        <a href="https://basmulla.github.io/book-directory-client/">Book Directory API Website</a>
+                        <a href="https://basmulla.github.io/book-directory-client/"> Book Directory API Website</a>
                     </li>
                 </ol>
                 <img align="right" src={process.env.PUBLIC_URL + "/images/Python.png"} alt="Python logo" width="250" height="200" />
@@ -60,10 +60,10 @@ class Home extends React.Component {
                         and Exponents problems.<a href="https://replit.com/@BasmullaAtekull/Review-Practice#main.py">
                             SolveIt</a></li> &nbsp;
                     <li> Prime Numbers: A Program that figures out whether a number is a composite or prime number.
-                        <a href="https://replit.com/@BasmullaAtekull/Prime-Numbers#main.py">Prime Numbers</a>
+                        <a href="https://replit.com/@BasmullaAtekull/Prime-Numbers#main.py"> Prime Numbers</a>
                     </li> &nbsp;
                     <li> Average-Ator: A program that helps find the average of any set of numbers that you input.
-                        <a href="https://replit.com/@BasmullaAtekull/For-Loops-Assignment#main.py">Average-Ator</a>
+                        <a href="https://replit.com/@BasmullaAtekull/For-Loops-Assignment#main.py"> Average-Ator</a>
                     </li>
                 </ol>
                 &nbsp;
