@@ -57,8 +57,8 @@ class Home extends React.Component {
                 <p><u>Here are some Python Coding Projects I worked on my free time.</u></p>
                 <ol>
                     <li> SolveIt: A Math Program that solves Addition, Subtraction, Multiplication, Division
-                        and Exponents problems.<a href="https://replit.com/@BasmullaAtekull/Review-Practice#main.py">
-                            SolveIt</a></li> &nbsp;
+                        and Exponents problems.
+                        <a href="https://replit.com/@BasmullaAtekull/Review-Practice#main.py"> SolveIt</a></li> &nbsp;
                     <li> Prime Numbers: A Program that figures out whether a number is a composite or prime number.
                         <a href="https://replit.com/@BasmullaAtekull/Prime-Numbers#main.py"> Prime Numbers</a>
                     </li> &nbsp;
