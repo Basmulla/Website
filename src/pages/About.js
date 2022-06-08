@@ -3,7 +3,7 @@ import React from "react";
 
 class About extends React.Component {
     render() {
-        return (
+        return (  
             <main>
                 <nav>
                     <h2><strong><u>Basmulla's Portfolio</u></strong></h2>
@@ -30,20 +30,17 @@ class About extends React.Component {
                     <li> Grew up in Toronto, Ontario for the majority of my life time </li>
                     <li> Dreams: </li>
                     <ul>
-                        <li> Want to go in the fields of SoftWare Engineering</li>
+                        <li> Want to go in the fields of Software Engineering</li>
                         <li> Learn Advanced Web Development</li>
                         <li> Want to go to University of Waterloo and complete my post-secondary years there</li>
                         <li> Become a successful Web Developer and create new innovative inventions
                             that will society will benefit from. </li>
                     </ul>
-
-
                 </ul>
 
                 <h3><u>Background:</u></h3>
 
                 <ul>
-
                     <li> My background is Afghan.</li>
 
                     <li> Even though I was born in Kazakhstan, both my parents were born and raised in Afghanistan. </li>

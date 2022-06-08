@@ -37,7 +37,7 @@ class MultiStepForm extends Component {
                             type="text"
                             placeholder='Enter first name...' />
 
-                        <p><label>last Name</label> </p>
+                        <p><label>Last Name</label> </p>
                         <input
                             name='lastName'
                             type='text'
@@ -66,6 +66,8 @@ class MultiStepForm extends Component {
                             name='province'
                             type='text'
                             placeholder='Enter Province' />
+                        <br/>
+                        &nbsp;
                         <br/>
                         <button type="submit" style={{
                             display: "block",

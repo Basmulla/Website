@@ -16,7 +16,7 @@ class Home extends React.Component {
                     Projects, Work History and loads of fun content created.</p>
                 <p id="special"> Here is a link to a Google sites which showcases other skills and projects I worked on. <a href="https://sites.google.com/d/1y0TNT5q55bQJhtzRi7swEjLJRahs3Dtt/p/1dDrQ3IHppHEmJkaGqK-
                 Opi9VXhzNjFw5/edit">Work Portfolio</a></p>
-                <img align="right" src="https://tno-toronto.org/sites/default/files/logo.png" alt="TNO" width="250" height="150" />
+                <img align="right" src="https://www.globalgiving.org/pfil/organ/89556/orglogo.png" alt="TNO" width="250" height="150" />
                 <h3><u>Work History</u></h3>
                 <h3><u>Volunteered in ... </u></h3>
                 <ul>
@@ -44,6 +44,12 @@ class Home extends React.Component {
                         near
                         future. You can also delete them or double click on them to turn them green when completed. I used HTML,
                         CSS, JavaScript and ReactJS to make the app. <a href="https://basmulla.github.io/todo-list/">Todo-List App</a>
+                    </li>
+                    &nbsp;
+                    <li>Book-Directory Website: I created a book directory website where you can update or delete a list of books that I have stored
+                        in an api. I fetch that api using HTTP verbs from the website and created functions to update the title, page count, description 
+                        of the book, aswell as another function to delete the book. I used ReactJS, node.JS and CSS to build the book directory website.
+                        <a href="https://basmulla.github.io/book-directory-client/">Book Directory API Website</a>
                     </li>
                 </ol>
                 <img align="right" src={process.env.PUBLIC_URL + "/images/Python.png"} alt="Python logo" width="250" height="200" />
