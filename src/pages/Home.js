@@ -34,7 +34,7 @@ class Home extends React.Component {
                 <h3><u>Coding Projects</u></h3>
                 <h4><u>JavaScript & ReactJS</u></h4>
                 <p><u>Here are some mobile apps I created using JavaScript and ReactJS.</u></p>
-                <img align="right" src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="ReactJS logo" width="250" height="200" />
+                <img align="right" src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="ReactJS logo" width="200" height="150" />
                 <ol>
                     <li>Calculator App: I created a Calculator app using HTML, CSS, and JavaScript. It has many functions
                         such as the Multiplication, Division, Addition, Sqaure Root and more. It does not have the functions of
