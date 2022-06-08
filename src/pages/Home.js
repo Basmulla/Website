@@ -32,6 +32,7 @@ class Home extends React.Component {
                     <li> Member of the MGCI CodeHers Collective club </li>
                 </ol>
                 <h3><u>Coding Projects</u></h3>
+                <img align="right" src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="Python logo" width="250" height="200" />
                 <h4><u>JavaScript & ReactJS</u></h4>
                 <p><u>Here are some mobile apps I created using JavaScript and ReactJS.</u></p>
                 <ol>
