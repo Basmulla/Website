@@ -13,15 +13,9 @@ class About extends React.Component {
                 <h3><u>School Information</u></h3>
 
                 <ul>
-                    <li> Am currently attending Marc Garneau Collegiate Institute </li>
-                    <li> Started in Sept 2019 and will graduate in June 2023 </li>
-                    <li> In Grade 11 </li>
-                    <li> Notable Achievements: </li>
-                    <ul>
-                        <li> Achieved a 100% average in Grade 10 Computer Engineering </li>
-                        <li> Achieved a 93% average in Grade 10 </li>
-                    </ul>
-
+                    <li> Am currently attending Toronto Metropolitan University</li>
+                    <li> Started in Sept 2023 and will graduate in April 2028 </li>
+                    <li> In Second Year of Computer Engineering </li>
                 </ul>
 
                 <h3><u>Personal Life</u></h3>
@@ -30,9 +24,7 @@ class About extends React.Component {
                     <li> Grew up in Toronto, Ontario for the majority of my life time </li>
                     <li> Dreams: </li>
                     <ul>
-                        <li> Want to go in the fields of Software Engineering</li>
                         <li> Learn Advanced Web Development</li>
-                        <li> Want to go to University of Waterloo and complete my post-secondary years there</li>
                         <li> Become a successful Web Developer and create new innovative inventions
                             that will society will benefit from. </li>
                     </ul>

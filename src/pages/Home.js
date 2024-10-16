@@ -16,21 +16,17 @@ class Home extends React.Component {
                     Projects, Work History and loads of fun content created.</p>
                 <p id="special"> Here is a link to a Google sites which showcases other skills and projects I worked on. <a href="https://sites.google.com/d/1y0TNT5q55bQJhtzRi7swEjLJRahs3Dtt/p/1dDrQ3IHppHEmJkaGqK-
                 Opi9VXhzNjFw5/edit">Work Portfolio</a></p>
-                <img align="right" src="https://www.globalgiving.org/pfil/organ/89556/orglogo.png" alt="TNO" width="250" height="150" />
+                <img align="right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0mtWI-1ILiCYhUfCaO_hIa-3YEXbXgsQHQ&s" alt="FarmBoy" width="250" height="150" />
                 <h3><u>Work History</u></h3>
-                <h3><u>Volunteered in ... </u></h3>
+                <h3><u>Worked as ...</u></h3>
                 <ul>
-                    <li> TNO </li>
+                    <li> Customer Service Representative - Farm Boy Inc </li>
                     &nbsp;
-                    <li> The Neighbourhood Group </li>
+                    <li> Cashier - Loblaws Inc </li>
+                    &nbsp;
+                    <li> Junior Web Developer - NorthP&D</li>
                 </ul>
-                <img align="right" src={process.env.PUBLIC_URL + "/images/MGCI Jr Boys 2019.JPG"} alt="Soccer Team" width="250" height="150" />
-                <h3><u>Extracirriculars</u></h3>
-                <ol>
-                    <li> Member of the MGCI Boys Senior Soccer team </li>
-                    &nbsp;
-                    <li> Member of the MGCI CodeHers Collective club </li>
-                </ol>
+                <img align="right" src={process.env.PUBLIC_URL + "/images/NorthP&D"} alt="North P&D" width="250" height="150" />
                 <h3><u>Coding Projects</u></h3>
                 <h4><u>JavaScript & ReactJS</u></h4>
                 <p><u>Here are some mobile apps I created using JavaScript and ReactJS.</u></p>
@@ -85,14 +81,14 @@ class Home extends React.Component {
                 &nbsp;
                 <li>Facebook &nbsp; <a href="https://www.facebook.com/bismullah.atekulla/" alt="Facebook" class="fa fa-facebook"></a></li>
                 &nbsp;
-                <li>Twitter &nbsp; <a href="https://twitter.com/7Basmulla/" alt="Twitter" class="fa fa-twitter"></a></li>
+                <li>Twitter &nbsp; <a href="https://x.com/Basmulla7" alt="Twitter" class="fa fa-twitter"></a></li>
                 <ol />
                 <div />
                 <h3><u>Email Information</u></h3>
                 <ol />
                 <li>Personal Email: basmulla1087@gmail.com</li>
                 &nbsp;
-                <li>Work Email: basmulla.atekulla@student.tdsb.on.ca</li>
+                <li>Work Email: basmulla1087@gmail.com</li>
                 <ol />
                 <div class="col"> Author: Basmulla Atekulla </div>
                 <br />
