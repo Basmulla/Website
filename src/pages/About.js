@@ -50,7 +50,7 @@ class About extends React.Component {
                 <div class="row">
                     <div class="col"> Author: Basmulla Atekulla </div>
                     &nbsp;
-                    <div class="col">Created on Febraury 2022 </div>
+                    <div class="col">Updated on October 2024</div>
                     &nbsp;
                 </div>
             </main>

@@ -92,7 +92,7 @@ class Home extends React.Component {
                 <ol />
                 <div class="col"> Author: Basmulla Atekulla </div>
                 <br />
-                <div class="col">Created on Febraury 2022 </div>
+                <div class="col">Updated on October 2024 </div>
                 &nbsp;
             </main>
         );
