@@ -1,11 +1,7 @@
 import React from "react";
 
-class Footer extends React.Component{
-    render(){
-        return(
-            <footer> @ 2022 My Site </footer>
-        );
-    }
+function Footer() {
+    return null;
 }
 
 export default Footer;

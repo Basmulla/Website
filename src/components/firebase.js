@@ -1,5 +1,5 @@
-import firebase from 'https://www.gstatic.com/firebasejs/9.6.11/firebase-compat-app.js';
-import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.6.11/firebase-compat-firestore.js';
+import firebase from "firebase/compat/app";
+import "firebase/compat/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyB1zWnTfYd2qDElOB2LN6jjWPLsLyyMZlw",
@@ -11,11 +11,11 @@ const firebaseConfig = {
   appId: "1:522841677852:web:beeab2b4e5029902cb3fd9"
 };
 
-firebase.initializeApp(firebaseConfig);
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}
 
-export const firestore = getFirestore(app);
+const firestore = firebase.firestore();
 
-rootRef = firebase.firestore().ref();
-console.log(rootRef)
-
+export { firestore };
 export default firebase;

@@ -1,13 +1,12 @@
 import React from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
-import SWK from './pages/SWK';
+import Skills from './pages/Skills';
 
 import Header from './components/Header'
 import Footer from './components/Footer';
-import SearchBar from './components/SearchBar';
-import LinkData from "./components/Data.json";
-import MultiStepForm from './components/MultiStepForm';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
@@ -26,9 +25,9 @@ function App() {
           )} />
           <Route exact path="/Home" component={Home} />
           <Route exact path="/About" component={About} />
-          <Route exact path="/SWK" component={SWK} />
-          <Route exact path="/SignupForm" component={MultiStepForm} />
-          <SearchBar placeholder="Search ..." data={LinkData} />
+          <Route exact path="/Skills" component={Skills} />
+          <Route exact path="/Projects" component={Projects} />
+          <Route exact path="/Contact" component={Contact} />
         </Switch>
         <Footer />
       </Router>
