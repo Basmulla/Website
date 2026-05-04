@@ -203,17 +203,39 @@ class Home extends React.Component {
                 <section className="github-section">
                     <h3>GitHub Activity</h3>
 
-                    <img
-                        src="https://github-readme-streak-stats.herokuapp.com?user=Basmulla"
-                        alt="GitHub Streak"
-                        style={{ width: '50%' }}
-                    />
+                    <p>
+                        I use GitHub to manage my software projects, track my progress, and showcase
+                        my work in web development, backend systems, databases, and full-stack applications.
+                    </p>
 
-                    <img
-                        src="https://github-readme-stats.vercel.app/api?username=Basmulla"
-                        alt="My GitHub stats"
-                        style={{ width: '50%' }}
-                    />
+                    <div className="github-activity-card">
+                        <img
+                            src="https://github-readme-streak-stats.herokuapp.com?user=Basmulla"
+                            alt="GitHub contribution streak showing total contributions, current streak, and longest streak"
+                        />
+                    </div>
+
+                    <div className="github-card-grid">
+                        <a
+                            href="https://github.com/Basmulla"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="github-card"
+                        >
+                            <h4>View My GitHub</h4>
+                            <p>Explore my repositories, project code, and development work.</p>
+                        </a>
+
+                        <a
+                            href="https://github.com/Basmulla/Website"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="github-card"
+                        >
+                            <h4>Portfolio Repository</h4>
+                            <p>View the source code for this React portfolio website.</p>
+                        </a>
+                    </div>
                 </section>
 
                 <section className="contact-section">
