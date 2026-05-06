@@ -26,8 +26,8 @@ class About extends React.Component {
 
                     <div className="about-profile-card">
                         <img
-                            src={process.env.PUBLIC_URL + "/images/Atekulla_Basmulla Avatar.png"}
-                            alt="Basmulla Avatar"
+                            src={process.env.PUBLIC_URL + "/images/profile-photo.jpeg"}
+                            alt="Basmulla Atekulla"
                             className="about-avatar"
                         />
                         <h3>Basmulla Atekulla</h3>

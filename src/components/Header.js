@@ -9,8 +9,8 @@ class Header extends React.Component {
                 <div className="header-container">
                     <div className="header-brand">
                         <img
-                            src={process.env.PUBLIC_URL + "/images/Atekulla_Basmulla Avatar.png"}
-                            alt="Basmulla Avatar"
+                            src={process.env.PUBLIC_URL + "/images/profile-photo.jpeg"}
+                            alt="Basmulla Atekulla"
                             className="header-avatar"
                         />
                         <span className="header-title">Basmulla's Portfolio</span>
