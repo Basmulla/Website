@@ -50,6 +50,14 @@ function Projects() {
                             <li>Built backend endpoints for transfer and loan request logic.</li>
                             <li>Connected application actions to relational database updates.</li>
                         </ul>
+                        <a
+                            href="https://github.com/Basmulla/online-banking-system/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="project-link"
+                        >
+                            View Repository
+                        </a>
                     </div>
 
                     <div className="portfolio-project-card">
@@ -112,6 +120,14 @@ function Projects() {
                             <li>Applied normalization to improve structure and reduce redundancy.</li>
                             <li>Wrote SQL queries to retrieve and manage e-commerce data.</li>
                         </ul>
+                          <a
+                            href="https://github.com/Basmulla/SQL-database/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="project-link"
+                        >
+                            View Repository
+                        </a>
                     </div>
 
                     <div className="portfolio-project-card">
